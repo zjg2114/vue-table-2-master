@@ -24,19 +24,9 @@ export default {
   },
   data() {
     return {
-      keyword: "",
-      info: {
-        close_time: 0,
-        cut_off_total: "",
-        ledger_version: "",
-        nbp_amount: 0,
-        service_charge: 0,
-      },
-      time: new Date().toLocaleString("en-US", { hour12: false }),
     };
   },
   created() {
-    // this.querySearch("nb0bb1a30393894f0fedebc8bf9513f51");
   },
   mounted() {
     this.initSvg();

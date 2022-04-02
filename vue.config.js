@@ -8,6 +8,7 @@
  */
 module.exports = {
     publicPath: './',
+    outputDir:'discoverweb',
     devServer: {
         proxy: {
             '/api': {
